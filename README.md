@@ -16,12 +16,12 @@ Each CSV file contains 2 columns : DNA sequence (41bp long), label (0 means nega
 
 For the positive CSV file, the example is below:
 
-![pos](https://github.com/Blublu410/6mADeep/Images/csvPos.PNG)
+![pos](https://github.com/Blublu410/6mADeep/blob/master/Image/csvPos.PNG)
 
 
 For the negative CSV file, the example is below:
 
-![neg](https://github.com/Blublu410/6mADeep/csvNeg.PNG)
+![neg](https://github.com/Blublu410/6mADeep/blob/master/Image/csvNeg.PNG)
 
 
 For the convenience, we upload 2 6mA datasets for rice genome proposed by previous studies **(Chen et al., 2019; Lv et al., 2019)**.
