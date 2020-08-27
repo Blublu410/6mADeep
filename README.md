@@ -1,7 +1,7 @@
 # 6mADeep
-# SNNRice6mA: a deep learning method for predicting DNA N6-methyladenine sites in rice genome
+# 6mADeep: N6-methyladenine sites prediction with an interpretable model
 
-DNA N6-methyladenine (6mA) is an important epigenetic modification, which is involved in many biology regulation processes. An accurate and reliable method for 6mA identification can help us gain a better insight into the regulatory mechanism of the modification. Although, many experimental techniques have been proposed to identify 6mA sites genome-wide, while these techniques are time consuming and laborious. Recently, several machine learning methods have been developed to identify 6mA sites genome-wide. However, there is room for the improvement on their performance for predicting 6mA sites in rice genome.
+N6-methyladenine (6mA) DNA  modification carries abundant epigenetic information and  plays a crucial role in biological functions, which is of great significance to the development of human beings. Accurate and reliable methods for detecting 6mA sites can help understand the mechanism of DNA modification. Current methods for identifying sites generally depend on experiments, but these are time-consuming and expensive. Under this circumstance, a variety of  computer-based approaches emerge.
 
 
 ## Requirements
@@ -16,12 +16,12 @@ Each CSV file contains 2 columns : DNA sequence (41bp long), label (0 means nega
 
 For the positive CSV file, the example is below:
 
-![pos](https://github.com/yuht4/SNNRice6mA/blob/master/images/csvPos.PNG)
+![pos](https://github.com/Blublu410/6mADeep/Images/csvPos.PNG)
 
 
 For the negative CSV file, the example is below:
 
-![neg](https://github.com/yuht4/SNNRice6mA/blob/master/images/csv.PNG "neg")
+![neg](https://github.com/Blublu410/6mADeep/csvNeg.PNG)
 
 
 For the convenience, we upload 2 6mA datasets for rice genome proposed by previous studies **(Chen et al., 2019; Lv et al., 2019)**.
