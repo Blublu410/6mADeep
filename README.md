@@ -24,11 +24,11 @@ For the negative CSV file, the example is below:
 ![neg](https://github.com/Blublu410/6mADeep/blob/master/Image/csvNeg.PNG)
 
 
-For the convenience, we upload 2 6mA datasets for rice genome proposed by previous studies **(Chen et al., 2019; Lv et al., 2019)**.
+For the convenience, we upload 2 6mA datasets for rice genome proposed by previous studies **(Chen et al., 2019)**.
 
-The 6mA-rice-Chen dataset is in the folder **6mA_data/Rice_Chen**, while the  6mA-rice-Lv is in the folder **6mA_data/Rice_Lv**.
+The 6mA-rice-Chen dataset is in the folder **6mA_data/Rice_Chen**。
 
-The 6mA-rice-Chen dataset contains 880 positive samples and 880 negative samples. The 6mA-rice-Lv dataset contains 154,000 positive samples and 154,000 negative samples.DNA sequences in both positive samples and negative samples are 41bp long. For each positive sequence, its center is the 6mA modification site. For each negative sequence, its center contains no 6mA modification site. 
+The 6mA-rice-Chen dataset contains 880 positive samples and 880 negative samples. DNA sequences in both positive samples and negative samples are 41bp long. For each positive sequence, its center is the 6mA modification site. For each negative sequence, its center contains no 6mA modification site. 
 
 ## Train the model on the 6mA dataset
 There are several model sciprts in our folder SNNRice6mA/, including SNN6mARice.py, SNN6mARice_feature.py and SNN6mARice_large.py.
