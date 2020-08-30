@@ -34,37 +34,28 @@ There are two model sciprts in the folder 6mADeep/, including 6mADeep.py,and 6mA
 - The 6mADeep.py is the training code for the basic model based on the genomic sequence only.
 - The 6mADeep-K.py is the training code for the model without XGBoost algorithm.
 
-We will show the method to use these scripts based on the Chen dataset.
+We will show the method to use these scripts based on the Chen dataset **(Chen et al., 2019)**.
 
 ### Model training and analyzing
-Use the model script you like to train the model, one of the three scirpts, (SNN6mARice.py, SNN6mARice_feature.py and SNN6mARice_large.py).
 
-For the SNN6mARice.py, the usage method is in below:
+For the 6mADeep.py, the usage method is in below:
 ```
-python SNN6mARice.py [OPTIONS]
+python 6mADeep.py [OPTIONS]
 [OPTIONS]:
 	--positive     positive 6mA csv file
 	--negative     negative 6mA csv file
 	--output       output folder
 ```
 
-For the SNN6mARice_feature.py, the usage method is in below:
+For the 6mADeep-K.py, the usage method is in below:
 ```
-python SNN6mARice_feature.py [OPTIONS]
+python 6mADeep-K.py [OPTIONS]
 [OPTIONS]:
 	--positive     positive 6mA csv file
 	--negative     negative 6mA csv file
 	--output       output folder
 ```
 
-For the SNN6mARice_large.py, the usage method is in below:
-```
-python SNN6mARice_large.py [OPTIONS]
-[OPTIONS]:
-	--positive     positive 6mA csv file
-	--negative     negative 6mA csv file
-	--output       output folder
-```
 
 ### Model result
 The model result in the output folder, contains the following things.
