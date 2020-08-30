@@ -26,18 +26,15 @@ For the negative CSV file, the example is below:
 
 For the convenience, we upload 2 6mA datasets for rice genome proposed by previous studies **(Chen et al., 2019)**.
 
-The 6mA-rice-Chen dataset is in the folder **6mA_data/Rice_Chen**。
-
-The 6mA-rice-Chen dataset contains 880 positive samples and 880 negative samples. DNA sequences in both positive samples and negative samples are 41bp long. For each positive sequence, its center is the 6mA modification site. For each negative sequence, its center contains no 6mA modification site. 
+The 6mA-rice-Chen dataset is in the folder **6mA_data/Rice_Chen**. The 6mA-rice-Chen dataset contains 880 positive samples and 880 negative samples. DNA sequences in both positive samples and negative samples are 41bp long. For each positive sequence, its center is the 6mA modification site. For each negative sequence, its center contains no 6mA modification site. 
 
 ## Train the model on the 6mA dataset
-There are several model sciprts in our folder SNNRice6mA/, including SNN6mARice.py, SNN6mARice_feature.py and SNN6mARice_large.py.
+There are two model sciprts in the folder 6mADeep/, including 6mADeep.py,and 6mADeep-K.py.
 
-- The SNN6mARice.py is the training code for the basic model based on the genomic sequence only.
-- The SNN6mARice_feature.py is the training code for the model with feature-based sequence encoding strategy.
-- The SNN6mARice_large.py is the training code for the model with more complex architecture.
+- The 6mADeep.py is the training code for the basic model based on the genomic sequence only.
+- The 6mADeep-K.py is the training code for the model without XGBoost algorithm.
 
-We will show the method to use these scripts based on the two datasets, 6mA-rice-Chen and 6mA-rice-Lv, we upload.
+We will show the method to use these scripts based on the Chen dataset.
 
 ### Model training and analyzing
 Use the model script you like to train the model, one of the three scirpts, (SNN6mARice.py, SNN6mARice_feature.py and SNN6mARice_large.py).
