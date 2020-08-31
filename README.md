@@ -70,7 +70,7 @@ For example:
 ![result](https://github.com/yuht4/SNNRice6mA/blob/master/images/S2.PNG "result")
 
 ### Model evaluation
-Use the script, evaluate.py, in SNNRice6mA/ to evaluate the model
+Use the script, 6mAEvaluate.py, in 6mADeep/ to evaluate the model
 
 When using the training code to build the model on the dataset, there are multiple models because of cross-validation. These trained models are somewhat similar, and users can choose any of them.
 
