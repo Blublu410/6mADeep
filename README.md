@@ -85,33 +85,21 @@ python evaluate.py [OPTIONS]
 
 ## Examples of using the program
 
-### 1 training and anazlying on the 6mA-rice-Chen by SNN6mARice.py
+### 1 training and anazlying on the 6mA-rice-Chen by 6mADeep.py
 
 Using the following commands:
 ```
-python SNN6mARice.py --positive 6mA_data/Rice_Chen/Positive.txt --negative 6mA_data/Rice_Chen/Negative.txt --output result/
+python 6mADeep.py --positive Dataset/Rice_Chen/Positive.txt --negative Dataset/Rice_Chen/Negative.txt --output result/
 ```
 
-### 2 training and anazlying on the 6mA-rice-Chen by SNN6mARice_feature.py
-
-Using the following commands:
-```
-python SNN6mARice_feature.py --positive 6mA_data/Rice_Chen/Positive.txt --negative 6mA_data/Rice_Chen/Negative.txt --output result/
-```
-
-### 3 training and anazlying on the 6mA-rice-Lv by SNN6mARice.py
+### 2 training and anazlying on the 6mA-rice-Chen by 6mADeep-K.py
 
 Using the following commands:
 ```
-python SNN6mARice.py --positive 6mA_data/Rice_Lv/pos.txt --negative 6mA_data/Rice_Lv/neg.txt --output result/
+python 6mADeep-K.py --positive Dataset/Rice_Chen/Positive.txt --negative Dataset/Rice_Chen/Negative.txt --output result/
 ```
-### 4 training and anazlying on the 6mA-rice-Lv by SNN6mARice_large.py
 
-Using the following commands:
-```
-python SNN6mARice_large.py --positive 6mA_data/Rice_Lv/pos.txt --negative 6mA_data/Rice_Lv/neg.txt --output result/
-```
 
 ## Reference
 1. Chen, W., Lv, H., Nie, F., and Lin, H. (2019). i6mA-Pred: Identifying DNA N6-methyladenine sites in the rice genome. Bioinformatics.
-2. Lv, H., Dao, F.-Y., Guan, Z.-X., Zhang, D., Tan, J.-X., Zhang, Y., Chen, W., and Lin, H. (2019). iDNA6mA-Rice: a computational tool for detecting N6-methyladenine sites in rice. Frontiers in Genetics DOI: 10.3389/fgene.2019.00793.
+
