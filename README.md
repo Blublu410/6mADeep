@@ -67,7 +67,8 @@ The model result in the output folder, contains the following things.
 ```
 
 For example:
-![result](https://github.com/yuht4/SNNRice6mA/blob/master/images/S2.PNG "result")
+![result](https://github.com/Blublu410/6mADeep/blob/master/Image/Result.PNG) 
+![result2](https://github.com/Blublu410/6mADeep/blob/master/Image/ROC.PNG)
 
 ### Model evaluation
 Use the script, 6mAEvaluate.py, in 6mADeep/ to evaluate the model
